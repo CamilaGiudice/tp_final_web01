@@ -1,0 +1,153 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Amiri', serif;
+    color: black;
+    background: white;
+}
+h1{
+font-size: xx-large;
+color: black;
+text-align: justify;
+margin-top: 5rem;
+
+
+
+}
+h2{
+font-size: x-large;
+color: black;
+text-align: justify;
+
+
+}
+
+h3{
+    font-size: large;
+    color: #000;
+    text-align: center;
+}
+
+
+h4{
+    font-size: medium;
+    color: #000;
+    text-align: center;
+}
+
+.history{
+    font-size: xx-large;
+}
+
+
+.block-fluid{
+    text-align: center;
+    color: #000;
+    font-size: xx-large;
+    margin-top: 2rem;
+    padding-left: 5rem;
+}
+
+.form{
+    padding: 1rem 1rem 1rem 1rem;
+    text-align: center;
+}
+
+
+/*TOP BAR*/
+.top-bar{
+    background: #3cc;
+    height: 7rem;
+    padding: 1rem 0rem 0rem 0rem;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.displaynone{
+    display: none;
+}
+
+/*NAV BAR*/
+.navbar{
+    box-shadow: 2px 2px 50px #3cc;
+    opacity: .9;
+    font-size: x-large;
+   
+}
+.navbar-brand img{
+    
+    border: none;
+    
+    padding: .8rem 0rem;
+    margin-left: 0rem;
+
+}
+
+.nav-item{
+    font-size: x-large;
+    color: black ;
+}
+
+.nav-item-top{
+    font-size: x-large;
+    color: black ;
+    margin-left: 5rem;
+}
+.nav-link{
+    color: black;
+    
+}
+
+
+/**CAROUSEL**/
+#carousel{
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+}
+.carousel-inner{
+    max-width: 100rem !important;
+}
+/**CAROUSEL SPEED**/
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active{
+    transition: transform 1.2s ease;
+}
+/**CAROUSEL CONTENT**/
+.carousel-caption{
+    position: absolute;
+    top: 79%;
+    transform: translateY(-83%);
+    text-transform:uppercase;
+}
+.bg-custom{
+    background-color: rgba(21, 160, 148, 0.219);
+    color:black;
+    border-radius: 1rem;
+    
+}
+
+.border-primary{
+    border-top: .2rem solid #3cc !important;
+}
+/*Footer*/
+.footer{
+    background: #3cc;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+   
+   
+}
+
+
+.seccion{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-justify: auto;
+	font-size: 1.3rem;
+
+}
+
+.thumb{
+	margin-bottom: 50px;
+}
